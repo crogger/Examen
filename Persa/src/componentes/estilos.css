@@ -1,0 +1,32 @@
+.titulo-empresa {
+    background: #343B9D;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #111;
+  }
+  
